@@ -1,0 +1,22 @@
+{
+  "name": "ts-ih-lib",
+  "main": "./dist/src/index.js",
+  "typings": "./dist/src/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^16.11.45",
+    "fast-glob": "^3.2.11",
+    "fg": "^0.0.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build:ih": "tsc -b tsconfig.import-helpers.json",
+    "build:nih": "tsc -b tsconfig.no-import-helpers.json",
+    "build": "npm run build:ih && npm run build:nih",
+    "linesOfCode": "npm run build && node ./get-number-of-lines.js"
+  }
+}
