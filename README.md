@@ -18,6 +18,11 @@ npm ci
 
 ```
 npm run linesOfCode
+
+<!-- result -->
+
+NO importHeleprs lines of code: 99
+importHelper lines of code: 37
 ```
 
 ## 🔗 Information Source
