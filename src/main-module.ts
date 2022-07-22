@@ -1,5 +1,7 @@
-import {add} from './math/math-main-module';
+// ignore this script
+import './disable-node-to-look-for-dependencies-on-parents-folders';
 
+import {add} from './math/math-main-module';
 
 console.log('1 + 2 =', add(1, 2));
 

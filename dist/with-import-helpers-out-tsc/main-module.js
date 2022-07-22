@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var tslib_1 = require("tslib");
+require("./disable-node-to-lookup-on-parents-deps");
 var math_main_module_1 = require("./math/math-main-module");
 console.log('1 + 2 =', (0, math_main_module_1.add)(1, 2));
 // To show how TypeScript handles with "async-await"
