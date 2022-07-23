@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    // "module": "commonjs",
     // commented to reduce this demo params
-    // "moduleResolution": "node",
     "declaration": false,
     "noEmitOnError": true,
     "types": ["node"],

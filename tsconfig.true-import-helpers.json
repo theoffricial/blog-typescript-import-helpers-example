@@ -1,0 +1,8 @@
+{
+  // extends some basic configuration...
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "importHelpers": true,
+    "outDir": "dist/true-import-helpers-out-tsc",
+  },
+}

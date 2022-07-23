@@ -11,8 +11,8 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build:ih": "tsc -b tsconfig.import-helpers.json",
-    "build:nih": "tsc -b tsconfig.no-import-helpers.json",
+    "build:ih": "tsc -b tsconfig.true-import-helpers.json",
+    "build:nih": "tsc -b tsconfig.false-import-helpers.json",
     "build": "npm run build:ih && npm run build:nih",
     "linesOfCode": "npm run build && node ./get-number-of-lines.js"
   }
