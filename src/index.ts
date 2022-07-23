@@ -1,7 +1,7 @@
 // ignore this script
 import './disable-node-to-look-for-dependencies-on-parents-folders';
 
-import {add} from './math/math-main-module';
+import {add} from './math';
 
 console.log('1 + 2 =', add(1, 2));
 
@@ -11,4 +11,4 @@ console.log('1 + 2 =', add(1, 2));
 })
 
 // To show how TypeScript handles "export star"
-export * from './math/math-main-module'
+export * from './math'
