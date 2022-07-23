@@ -1,5 +1,5 @@
 {
-  // extends some basic configuration...
+  // tsconfig.json includes a VERY basic configuration...
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "importHelpers": true,

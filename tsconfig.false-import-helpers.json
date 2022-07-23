@@ -1,9 +1,8 @@
 {
+  // tsconfig.json includes a VERY basic configuration...
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "dist/false-import-helpers-out-tsc",
     "importHelpers": false,
   },
-  // "exclude": ["jest.config.ts", "**/*.spec.ts", "**/*.test.ts"],
-  // "include": ["**/*.ts"]
 }

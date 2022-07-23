@@ -50,11 +50,13 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-// ignore this script
+// To ensure node not taking libraries from parent folders
+// IGNORE
 require("./disable-node-to-look-for-dependencies-on-parents-folders");
+// #### the library main module ####
 var math_1 = require("./math");
 console.log('1 + 2 =', (0, math_1.add)(1, 2));
-// To show how TypeScript handles with "async-await"
+// To demonstrate how TypeScript transpile "async-await"
 (function bla() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {

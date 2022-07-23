@@ -1,11 +1,15 @@
-// ignore this script
-import './disable-node-to-look-for-dependencies-on-parents-folders';
+// To ensure node not taking libraries from parent folders
+// IGNORE
+import './____disable-node-to-look-for-dependencies-on-parents-folders';
 
-import {add} from './math';
+
+// #### the library main module ####
+
+import { add } from './math';
 
 console.log('1 + 2 =', add(1, 2));
 
-// To show how TypeScript handles with "async-await"
+// To demonstrate how TypeScript transpile "async-await"
 (async function bla()  {
     await Promise.resolve(42)
 })
